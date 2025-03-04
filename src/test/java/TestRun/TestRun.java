@@ -10,7 +10,7 @@ features= {"src/test/java/Features"},
 glue= {"StepDef","Hooks"},
 dryRun=false,
 monochrome=true,
-plugin= {"pretty","html:target/cucumber-reports.html"}
+plugin= {"pretty","json:target/cucumber-reports/Cucumber.json"}
 )
  
 public class TestRun {
